@@ -8,7 +8,7 @@ export default defineConfig(({ command }) => {
     };
 
     if (command !== "serve") {
-        config.base = "/first-project/";
+        config.base = "/First-Project-React/";
     }
 
     return config;

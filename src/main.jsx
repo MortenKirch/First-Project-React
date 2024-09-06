@@ -7,7 +7,7 @@ import { defineConfig } from "vite";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/first-project/"}>
+    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/First-Project-React/"}>
     <App />
     </BrowserRouter>
   </StrictMode>,
